@@ -1,0 +1,26 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"name":"csharp","aliases":[]},{"name":"vscode","languageName":null,"aliases":["frontend"]}]}}
+
+#!markdown
+
+# Introduction
+
+The integral numeric types represent integer numbers. All integral numeric types are value types. They're also simple types and can be initialized with literals. All integral numeric types support arithmetic, bitwise logical, comparison, and equality operators.
+
+
+Lets start with sbyte.
+
+sbyte is like i8 in rust, and range is -128 ti 127
+
+if you allocate more or less you get this error:
+
+error CS0031: Constant value 'xxx' cannot be converted to a 'sbyte'
+
+#!csharp
+
+sbyte maxValue = 127;
+Console.WriteLine(number);
+
+sbyte minValue = -128;
+Console.WriteLine(minValue);
