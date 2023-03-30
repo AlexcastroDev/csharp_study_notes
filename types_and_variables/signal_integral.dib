@@ -1,6 +1,6 @@
 #!meta
 
-{"kernelInfo":{"defaultKernelName":"csharp","items":[{"name":"csharp","aliases":[]},{"name":"vscode","languageName":null,"aliases":["frontend"]}]}}
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"},{"aliases":["frontend"],"name":"vscode"}]}}
 
 #!markdown
 
@@ -20,7 +20,7 @@ error CS0031: Constant value 'xxx' cannot be converted to a 'sbyte'
 #!csharp
 
 sbyte maxValue = 127;
-Console.WriteLine(number);
+Console.WriteLine(maxValue);
 
 sbyte minValue = -128;
 Console.WriteLine(minValue);
