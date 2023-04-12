@@ -1,0 +1,34 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!markdown
+
+Single-Dimensional Arrays
+
+You create a single-dimensional array using the new operator specifying the array element type and the number of elements. The following example declares an array of five integers:
+
+#!csharp
+
+string[] names = new string[] { "John", "Paul", "George", "Ringo" };
+Console.WriteLine(string.Join(", ", names));
+
+#!markdown
+
+The numbers printed in the output will be of type int. The int[] array contains integer values, and Console.WriteLine will simply convert each integer to its string representation and concatenate them with the specified delimiter (", " in this case) to produce a single string output.
+
+#!csharp
+
+int[] numbers = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+string result = string.Join(", ", numbers);
+Console.WriteLine(result);
+
+#!markdown
+
+Arrays can have more than one dimension. For example, the following declaration creates a two-dimensional array of four rows and two columns.
+
+#!csharp
+
+int[,] matrix = new int[1,1];
+
+Console.WriteLine(matrix);

@@ -11,7 +11,7 @@ The integral numeric types represent integer numbers. All integral numeric types
 
 Lets start with sbyte.
 
-sbyte is like i8 in rust, and range is -128 ti 127
+sbyte is like i8 in rust, and range is -128 to 127
 
 if you allocate more or less you get this error:
 
