@@ -38,9 +38,11 @@ CREATE TABLE [dbo].[Alekinho](
 )
 ```
 
+More about clustered index here: [clusters_index.md](./1_clusters_index.md)
+
 Add a column called name in table
 
 ```sql
-ALTER TABLE [dbo].[Alekinho] ADD [Name] [varchar](50) NULL
+ALTER TABLE [dbo].[Alekinho] ADD [Name] [nvarchar](50) NULL
 ```
 
