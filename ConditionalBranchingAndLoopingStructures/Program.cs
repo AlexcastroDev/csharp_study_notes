@@ -19,3 +19,13 @@ string[,] ourAnimals = new string[maxPets, 6];
 */
 Console.WriteLine(ourAnimals.Length); // 48
 Console.WriteLine(ourAnimals);
+Console.WriteLine("Y" != "y");
+
+int first = 2;
+string second = "4";
+// This will not compile because the + operator is not defined for the int and string types.
+// int result = first + second;
+
+// This will compile because the + operator is defined for the string type.
+string result = first + second;
+Console.WriteLine(result);
